@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>conversor de moedas</title>
+</head>
+
+<body>
+
+    <img src="./assets/logo-money.gif" alt="logo do site" id="logo-money">
+
+    <main>
+
+        <label>
+            Converter <b> de </b>
+            <select>
+
+                <option>
+                    R$ Real brasileiro
+                </option>
+
+            </select>
+
+
+        </label>
+
+        <label>
+            Converter <b> para </b>
+            <select class="dolar-ou-euro">
+
+                <option value="dolar" >
+                    US$ Dólar americano
+                </option>
+
+                <option value="euro">
+                    € Euro
+                </option>
+
+            </select>
+
+        </label>
+
+        <label>
+            <b>valor</b>
+
+            <input class="input-1"  placeholder="R$ 10.000,00">
+
+        </label>
+
+        <button class="button-1">Converter</button>
+
+        <section>
+
+            <div class="box">
+                <img src="./assets/real.png" alt="Brasil">
+
+                <p class="p-1">Real</p>
+
+                <p class="Real-BR">R$ 0,00</p>
+
+            </div> 
+
+            <img src="./assets/seta.png" alt="seta" class="seta">
+
+            <div class="box">
+
+                <img src="./assets/dolar.png" alt="dolar">
+
+                <p class="p-1">Dólar</p>
+
+                <p class="valor-convertido">US$ 0.0</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
