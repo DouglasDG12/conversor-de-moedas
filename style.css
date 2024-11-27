@@ -89,7 +89,7 @@ section {
     padding: 10px;
 }
 
-.Real-BR,.dolar-US  {
+.valor-não-convertido,.valor-convertido {
     font-weight: 700;
     font-size: 20px;
     color: #555555;

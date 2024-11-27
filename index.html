@@ -21,10 +21,22 @@
 
         <label>
             Converter <b> de </b>
-            <select>
+            <select class="primeiro-seletor">
 
-                <option>
+                <option value="real">
                     R$ Real brasileiro
+                </option>
+
+                <option value="dolar">
+                    US$ Dólar Americano
+                </option>
+
+                <option value="euro">
+                    € Euro
+                </option>
+
+                <option value="libra">
+                    £ Libra
                 </option>
 
             </select>
@@ -37,11 +49,19 @@
             <select class="dolar-ou-euro">
 
                 <option value="dolar" >
-                    US$ Dólar americano
+                    US$ Dólar Americano
                 </option>
 
                 <option value="euro">
                     € Euro
+                </option>
+
+                <option value="libra">
+                    £ Libra
+                </option>
+
+                <option value="real">
+                    R$ Real Brasileiro
                 </option>
 
             </select>
@@ -60,11 +80,11 @@
         <section>
 
             <div class="box">
-                <img src="./assets/real.png" alt="Brasil">
+                <img class="primeira-bandeira"  src="./assets/real.png" alt="Brasil">
 
-                <p class="p-1">Real</p>
+                <p class="p-1" id="nome-do-pais">Real</p>
 
-                <p class="Real-BR">R$ 0,00</p>
+                <p class="valor-não-convertido">R$ 0,00</p>
 
             </div> 
 
@@ -72,9 +92,9 @@
 
             <div class="box">
 
-                <img src="./assets/dolar.png" alt="dolar">
+                <img class="bandeiras" src="./assets/dolar.png" alt="dolar">
 
-                <p class="p-1">Dólar</p>
+                <p class="p-1" id="nome-do-dindin">Dólar americano </p>
 
                 <p class="valor-convertido">US$ 0.0</p>
 
